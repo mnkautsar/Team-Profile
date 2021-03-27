@@ -76,6 +76,13 @@ a {
   box-shadow: -5px 5px #997A00;  
 }
 
+.hire:active {
+  position: relative;
+  top: 7px;
+  right: 7px;
+  box-shadow: none;
+}
+
 .fa {
   margin-right: 5px;
 }
