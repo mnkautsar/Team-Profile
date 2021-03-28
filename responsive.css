@@ -17,6 +17,10 @@
   .btn {
     width: 50%;
   }
+  .column {
+    width: 100%;
+    display: block;
+    }
 }
 
 /* Untuk Smartphone */
@@ -53,4 +57,8 @@
   .menu-icon{
     display:  block;
   }
+  .column {
+    width: 100%;
+    display: block;
+    }
 }

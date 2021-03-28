@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
+.clear {
+  clear : left;
+}
+
 a {
   text-decoration: none;
 }
@@ -134,6 +138,11 @@ header {
 
 /* Hanif 20210327 */
 /* Start Ho Ho */
+
+.content-About-Me .container {
+  width: 100%;
+}
+
 .content-About-Me-Wrapper-btn{
     margin: 20px 0; 
 }
@@ -190,7 +199,6 @@ header {
     color:orange;
 }
 .content-About-Me{
-    float: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -198,3 +206,86 @@ header {
 /* Hanif 20210327 */
 /* End Ho Ho */
 
+/* start of css Meet The Team */
+
+footer{
+  height: 650px;
+  background-color:#f8f1f1;
+  font-family:Arial, Helvetica, sans-serif;
+}
+footer h2{
+  margin-top: 50px;
+  font-size: 45px;
+  text-align: center; 
+}
+.column {
+  float: left;
+  width: 19%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+}
+
+
+.row{
+  margin-left: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.container:hover .row:hover {
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-weight: 600;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/* end of css OurTeam */
+
+/* Nejat CSS */
+/* content lessons */
+
+.content-lessons{
+  height : 800px;
+  padding : 80px 0px;
+  background-color : #f7f7f7;
+}
+
+.container-lessons {
+  width: 100%;
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+  margin: 50px 0px;
+}
+.lessons .lesson-logo {
+  font-size: 48px; 
+  color: Dodgerblue;
+}
