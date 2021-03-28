@@ -18,10 +18,18 @@
     width: 50%;
   }
   .column {
-    width: 100%;
+    width: 50%;
     display: block;
     }
+    
+  .lessons {
+    width: 70%;
+    margin: auto;
+  }
+
+
 }
+
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
@@ -58,7 +66,21 @@
     display:  block;
   }
   .column {
-    width: 100%;
+    width: 50%%;
     display: block;
     }
+
+  .lessons {
+    width: 100%;
+    margin: auto;
+  }
+
+  .lesson {
+    float: left;
+    width: 100%;
+    padding: 20px 5%;
+    margin: 20px 0px;
+    color: white;
+  }
+
 }
