@@ -1,0 +1,360 @@
+/* Ketik code Anda dibaris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear : left;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #FD8300 ;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+
+  display:  none
+}
+
+
+.container {
+   max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 80px 90px;
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.top-wrapper h1 {
+  margin-top: 100px;
+  font-family: fantasy;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.team{
+  color: #FF3939;
+  font-family: cursive;
+  font-size: 50px;
+}
+
+.top-wrapper p {
+  font-weight: bold;
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.top-wrapper img{
+  float: right;
+  margin-right: 160px;
+  height: 342px;
+  width: 300px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.hire {
+  background-color: #FD8300;
+  box-shadow: -5px 5px #8C5112;
+}
+
+.hire:hover {
+  background-color:#FDCA00;
+  box-shadow: -5px 5px #997A00;  
+}
+
+.hire:active {
+  position: relative;
+  top: 7px;
+  right: 7px;
+  box-shadow: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* Hanif 20210327 */
+/* Start Ho Ho */
+
+.content-About-Me .container {
+  width: 100%;
+}
+
+.content-About-Me-Wrapper-btn{
+    margin: 20px 0; 
+}
+.content-About-Me-Wrapper{
+    float:left;
+    margin-left: 100px;
+    background-color:white;
+    border: orange;
+    margin-top: 10px;
+}
+
+.about-me{
+    padding-top: 5%;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-style: normal;
+    text-decoration: none;
+    width: auto;
+    min-width: 50px;
+    max-width: 300px;
+}
+
+.works{
+    background-color:orange;
+}
+
+.CV{
+    background-color: white;
+    color: orange;
+    border-radius: 5px;
+  border: 2px solid orange;
+}
+
+
+.btn:hover{
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+    opacity: 0.8    ;
+
+  }
+.fa:hover{
+    opacity: 1;
+}
+.fa-address-card{
+    color:orange;
+}
+.content-About-Me{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* Hanif 20210327 */
+/* End Ho Ho */
+
+/* start of css Meet The Team */
+
+footer{
+  height: 650px;
+  background-color:#ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 0 25px;
+}
+.footer-header{
+  margin: 20px 0;
+  font-size: 30px;
+  text-align: center; 
+}
+.column {
+  float: left;
+  width: 19%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+}
+
+
+.row{
+  margin-left: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.container:hover .row:hover {
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-weight: 600;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.footer-bott p{
+  margin: 20px 0;
+  font-size: 15px;
+  text-align: center; 
+}
+/* end of css OurTeam */
+
+/* Nejat CSS */
+/* content lessons */
+
+.content-lessons{
+  /* height : 800px; */
+  padding : 80px 5%;
+  background-color : #f7f7f7;
+}
+
+.container-lessons {
+  width: 100%;
+  margin: auto;
+}
+
+.container-lessons .heading {
+  text-align: center;
+  font-family: 'Lucida Sans';
+}
+
+.container-lessons .heading h2 {
+  padding: 20px 0px;
+  margin: 20px 0px;
+  border-bottom: 3px solid #FDCA00;
+}
+
+.container-lessons .heading p {
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.lessons{
+  width: 50%;
+  margin: auto;
+}
+
+.lessons .lesson-logo {
+  font-size: 48px; 
+  color: Dodgerblue;
+  padding: 20px 0px;
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+  padding: 20px 2%;
+  margin: 20px 0px;
+  color: white;
+}
+
+.lesson .card {
+  padding: 20px 5%;
+  height: 200px;
+}
+
+.lesson .cover {
+  opacity: .9;
+}
+
+.l-html {
+  background-image: url(image/lesson_1.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow:inset 0 0 0 2000px rgb(51, 197, 255, .85);
+}
+
+.l-css {
+  background-image: url(image/lesson_2.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow:inset 0 0 0 2000px rgb(255, 190, 51, .85);
+}
+
+.l-js {
+  background-image: url(image/lesson_3.jpeg);
+  background-size: cover;
+  background-position: center;
+  box-shadow:inset 0 0 0 2000px rgb(255, 51, 245, .85);
+}
+
+.l-ex {
+  background-image: url(image/lesson_4.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow:inset 0 0 0 2000px rgba(75, 255, 51, .85);
+}
